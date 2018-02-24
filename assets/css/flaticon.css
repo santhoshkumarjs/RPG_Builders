@@ -1,0 +1,268 @@
+@font-face {
+	font-family: "Flaticon";
+	src: url("../fonts/flaticon.eot");
+	src: url("../fonts/flaticon.eot#iefix") format("embedded-opentype"),
+	url("../fonts/flaticon.woff") format("woff"),
+	url("../fonts/flaticon.ttf") format("truetype"),
+	url("../fonts/flaticon.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+	font-family: Flaticon;
+        font-size: 20px;
+font-style: normal;
+/*margin-left: 20px;*/
+}.flaticon-add52:before {
+	content: "\e000";
+}
+.flaticon-attach:before {
+	content: "\e001";
+}
+.flaticon-avatar83:before {
+	content: "\e002";
+}
+.flaticon-back28:before {
+	content: "\e003";
+}
+.flaticon-band11:before {
+	content: "\e004";
+}
+.flaticon-blogger:before {
+	content: "\e005";
+}
+.flaticon-briefcase69:before {
+	content: "\e006";
+}
+.flaticon-circularclock2:before {
+	content: "\e007";
+}
+.flaticon-clip26:before {
+	content: "\e008";
+}
+.flaticon-clock96:before {
+	content: "\e009";
+}
+.flaticon-construction28:before {
+	content: "\e00a";
+}
+.flaticon-constructor5:before {
+	content: "\e00b";
+}
+.flaticon-cut72:before {
+	content: "\e00c";
+}
+.flaticon-direction196:before {
+	content: "\e00d";
+}
+.flaticon-direction200:before {
+	content: "\e00e";
+}
+.flaticon-direction202:before {
+	content: "\e00f";
+}
+.flaticon-directional25:before {
+	content: "\e010";
+}
+.flaticon-drink76:before {
+	content: "\e011";
+}
+.flaticon-email147:before {
+	content: "\e012";
+}
+.flaticon-email167:before {
+	content: "\e013";
+}
+.flaticon-envelope53:before {
+	content: "\e014";
+}
+.flaticon-envelope95:before {
+	content: "\e015";
+}
+.flaticon-hacksaw:before {
+	content: "\e016";
+}
+.flaticon-hammer12:before {
+	content: "\e017";
+}
+.flaticon-hammer14:before {
+	content: "\e018";
+}
+.flaticon-hammer17:before {
+	content: "\e019";
+}
+.flaticon-hammer38:before {
+	content: "\e01a";
+}
+.flaticon-hammer39:before {
+	content: "\e01b";
+}
+.flaticon-hammer40:before {
+	content: "\e01c";
+}
+.flaticon-hammers1:before {
+	content: "\e01d";
+}
+.flaticon-hammers8:before {
+	content: "\e01e";
+}
+.flaticon-hotdrink14:before {
+	content: "\e01f";
+}
+.flaticon-left-arrow5:before {
+	content: "\e020";
+}
+.flaticon-leftarrows:before {
+	content: "\e021";
+}
+.flaticon-left179:before {
+	content: "\e022";
+}
+.flaticon-mail26:before {
+	content: "\e023";
+}
+.flaticon-marks:before {
+	content: "\e024";
+}
+.flaticon-message55:before {
+	content: "\e025";
+}
+.flaticon-messages8:before {
+	content: "\e026";
+}
+.flaticon-mug4:before {
+	content: "\e027";
+}
+.flaticon-network19:before {
+	content: "\e028";
+}
+.flaticon-office-material:before {
+	content: "\e029";
+}
+.flaticon-office-material1:before {
+	content: "\e02a";
+}
+.flaticon-onlinestore17:before {
+	content: "\e02b";
+}
+.flaticon-origami26:before {
+	content: "\e02c";
+}
+.flaticon-paper-airplane:before {
+	content: "\e02d";
+}
+.flaticon-paper11:before {
+	content: "\e02e";
+}
+.flaticon-paper113:before {
+	content: "\e02f";
+}
+.flaticon-paper20:before {
+	content: "\e030";
+}
+.flaticon-paperclip:before {
+	content: "\e031";
+}
+.flaticon-paperclip27:before {
+	content: "\e032";
+}
+.flaticon-pencils16:before {
+	content: "\e033";
+}
+.flaticon-phone41:before {
+	content: "\e034";
+}
+.flaticon-phone50:before {
+	content: "\e035";
+}
+.flaticon-pipe9:before {
+	content: "\e036";
+}
+.flaticon-pointer45:before {
+	content: "\e037";
+}
+.flaticon-push-pin1:before {
+	content: "\e038";
+}
+.flaticon-pushpin2:before {
+	content: "\e039";
+}
+.flaticon-quotation2:before {
+	content: "\e03a";
+}
+.flaticon-rectangle16:before {
+	content: "\e03b";
+}
+.flaticon-repair-tool:before {
+	content: "\e03c";
+}
+.flaticon-repair30:before {
+	content: "\e03d";
+}
+.flaticon-rightarrow49:before {
+	content: "\e03e";
+}
+.flaticon-right127:before {
+	content: "\e03f";
+}
+.flaticon-right138:before {
+	content: "\e040";
+}
+.flaticon-rightarrows6:before {
+	content: "\e041";
+}
+.flaticon-saw18:before {
+	content: "\e042";
+}
+.flaticon-send4:before {
+	content: "\e043";
+}
+.flaticon-share11:before {
+	content: "\e044";
+}
+.flaticon-share16:before {
+	content: "\e045";
+}
+.flaticon-share46:before {
+	content: "\e046";
+}
+.flaticon-share55:before {
+	content: "\e047";
+}
+.flaticon-shopper24:before {
+	content: "\e048";
+}
+.flaticon-shopping219:before {
+	content: "\e049";
+}
+.flaticon-shoppingcart13:before {
+	content: "\e04a";
+}
+.flaticon-shoppingcarts6:before {
+	content: "\e04b";
+}
+.flaticon-social24:before {
+	content: "\e04c";
+}
+.flaticon-supermarket48:before {
+	content: "\e04d";
+}
+.flaticon-telephone173:before {
+	content: "\e04e";
+}
+.flaticon-text3:before {
+	content: "\e04f";
+}
+.flaticon-user146:before {
+	content: "\e050";
+}
+.flaticon-wheelbarrow3:before {
+	content: "\e051";
+}
+.flaticon-worker19:before {
+	content: "\e052";
+}
+.flaticon-worker39:before {
+	content: "\e053";
+}

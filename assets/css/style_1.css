@@ -1,0 +1,3335 @@
+/* =================================================================
+		 1 => INFORMATION
+		 2 => RESET
+		 3 => DRILL TEXT FORMATE
+		 4 => DRILL TRANSITIONS
+		 5 => DRILL BUTTON
+		 6 => FIXED MENUBAR
+		 7 => HEADER-LG
+		 8 => MAIN FEATURE
+		 9 => LATEST PROJECT
+		10 => OUR SERVICE
+		11 => WORK COUNTER
+		12 => DRILL-PRICE
+		13 => OUR TEAM
+		14 => DRILL-REFERENCE
+		15 => COMPANY LOGO
+		16 => DRILL FOOTER
+		17 => DRILL SERVICES PAGE
+		18 => DRILL TEAM MEMBER PAGE
+		19 => DRILL GALLERY PAGE
+		20 => DRILL ABOUT US PAGE
+		21 => DRILL CONTACT US PAGE
+ =================================================================== */
+
+
+/* ================================================================= */
+/* ======================= INFORMATION START ======================= 
+
+- document:  Drill
+- element:   Main Style Sheet
+- author:    One_Touch
+- profile:   http://themeforest.net/user/one_touch
+
+   ======================== INFORMATION END ======================== */
+/* ================================================================= */
+
+
+
+/* ================================================================= */
+/* ========================== RESET START ========================== */
+/* primary reset */
+* {
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+	outline: 0;
+	line-height: 1.5;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+	     -o-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.menu-2.menu_bg:before{
+    background: #fff !important;
+    position: absolute;
+    width: 500%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    content: "hello";
+}
+
+a{
+    text-decoration: none;
+}
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+	text-decoration: none;
+	color: inherit;
+	background: inherit;
+}
+
+.clr {
+	clear: both;
+}
+
+body {
+	overflow-x: hidden;
+}
+/*
+input,
+textarea,
+button {
+    border: 0 !important;
+    box-shadow: none !important;
+    resize: none;
+}
+
+input:focus,
+textarea:focus,
+button:focus,
+button:active,
+button:visited {
+    box-shadow: none !important;
+    border: 0 !important;
+}
+*/
+.row30 {
+	margin-left: -30px;
+	margin-right: -30px;
+}
+
+.row30-2 {
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+
+
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*//*
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    border: 1px solid;
+    border-color: #ccc #ccc #bbb;
+    border-radius: 3px;
+    background: #e6e6e6;
+   /* box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), inset 0 15px 17px rgba(255, 255, 255, 0.5), inset 0 -5px 12px rgba(0, 0, 0, 0.05);*//*
+    color: rgba(0, 0, 0, .8);
+    font-size: 12px;
+    font-size: 0.75rem;
+    line-height: 1;
+    padding: 5px;
+    /*text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);*//*
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    border-color: #ccc #bbb #aaa;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.8), inset 0 15px 17px rgba(255, 255, 255, 0.8), inset 0 -5px 12px rgba(0, 0, 0, 0.02);
+}
+
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+    border-color: #aaa #bbb #bbb;
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.5), inset 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+    color: #666;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+select {
+    border: 1px solid #ccc;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+    color: #111;
+}
+
+textarea {
+    width: 100%;
+}
+
+*/
+
+/* primary reset end */
+.drill-txt-lg.dtl-center.title_bg_content.main{
+    padding: 5px 0px 50px 0px; 
+}
+.drill-txt-lg.dtl-center.title_bg_content.main:before{
+    bottom: 48px !important;
+}
+/* main shape */
+.col-sm-4.blog-post.main-shape {
+	margin-bottom: 55px;
+}
+.main-shape {
+	position: relative;
+}
+
+.main-shape:after {
+	position: absolute;
+	content: '';
+	width: 85%;
+	height: 100%;
+	background: #1D2C36;
+	top: 25px;
+	left: 45px;
+	z-index: -1;
+}
+
+.main-shape:hover:after {
+	background: #edac15;
+}
+
+.main-shape-iner {
+	position: relative;
+	width: 85%;
+	background: #fff;
+	border: 1px solid rgba(29,44,54,.2);
+	margin-bottom: 25px;
+	padding-bottom: 25px;
+}
+
+.main-shape:hover .main-shape-iner {
+	border: 1px;
+    border-style: solid;
+    border-color: #edac15;
+}
+
+.main-shape:hover .drill-btn {
+	background: #1D2C36;
+	color: #fff;
+}
+
+.main-shape-iner ~ .drill-btn {
+	z-index: 9;
+	-webkit-transform: translateX(-10px);
+	   -moz-transform: translateX(-10px);
+	    -ms-transform: translateX(-10px);
+	     -o-transform: translateX(-10px);
+	        transform: translateX(-10px);
+}
+/*main shape end*/
+
+/* dividers */
+.section-divider {
+	height: 30px;
+}
+
+.feature-divider {
+	margin: 80px 0;
+}
+/* dividers end */
+
+/*for other pages*/
+.drill-other-header {
+	position: relative;
+	height: 300px;
+	z-index: 1;
+}
+
+.drill-other-header:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: rgba(29,44,54,.7);
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.other-header-content {
+	position: relative;
+	height: 300px;
+}
+.other-header-content .drill-txt-lg:before{
+    display: none;
+}
+
+.other-header-content .drill-txt-lg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	margin-left: 0;
+	margin-bottom: 0;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.drill-track {
+	position: absolute;
+	top: 50%;
+	left: 0;
+}
+
+.drill-track li {
+	display: inline-block;
+	padding-right: 15px;
+	position: relative;
+}
+
+.drill-track li:not(:last-of-type):after {
+	position: absolute;
+	content: "\e00f";
+	font-family: "Flaticon";
+	font-size: 8px;
+	color: #fff;
+	top: 50%;
+	left: 100%;
+	-webkit-transform: translate(-100%, -50%);
+	   -moz-transform: translate(-100%, -50%);
+	    -ms-transform: translate(-100%, -50%);
+	     -o-transform: translate(-100%, -50%);
+	        transform: translate(-100%, -50%);
+}
+
+.drill-track li a {
+	color: #fff;
+	position: relative;
+	text-transform: capitalize;
+}
+/*reset for other pages end*/
+
+/* ========================== RESET END ============================ */
+/* ================================================================= */
+
+/* ================================================================= */
+/* ====================== DRILL TEXT FORMATE ROCKY ======================= */
+
+ /* font-family: 'Raleway', sans-serif; */
+.drill-txt-xs,
+.drill-txt-sm,
+.drill-txt-lg,
+.drill-txt-p,
+.drill-txt-2 {	
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+/* ==== drill-txt-lg ===== */
+.drill-txt-lg {
+	display: inline-block;
+	padding: 30px 0px 10px 0px;
+	position: relative;
+	float: none;
+	color: #222e35;
+	overflow: hidden;
+    position: relative;
+}
+.drill-txt-lg:before{
+    content: "";
+    background: #2d803c;
+    height: 3px;
+    width: 60px;
+    display: block;
+    position: absolute;
+    bottom: 10px;
+}
+.pad_top{
+	padding: 30px 0px !important;
+}
+.pd_bb{
+     padding-bottom: 55px;   
+}
+
+/*
+.drill-txt-lg.title_bg_content.project:after{
+    content: "latest project";
+    color:#f3f5f6; 
+    
+}
+.title_bg_content{
+    width: 100%;
+    
+}
+.drill-txt-lg.title_bg_content.price:after{
+     content: "pricing table";
+}
+*/
+/*
+
+.drill-txt-lg.title_bg_content:after{
+    font-size: 120px;
+    color:#f3f5f6; 
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 40%;
+    z-index: -1;
+    font-weight: 700;
+    left: 0;
+    width: 100%;
+    text-align: center;
+	background-position: bottom left 2.3px;
+	-webkit-transform: rotate(0deg);
+	   -moz-transform: rotate(0deg);
+	    -ms-transform: rotate(0deg);
+	     -o-transform: rotate(0deg);
+	        transform: rotate(0deg);
+}
+*/
+/*
+.drill-txt-lg.title_bg_content.team:after{
+    content: "team members";
+    color: rgba(255, 255, 255, 0.071);
+    z-index: -2;
+    font-family: 'Raleway', sans-serif;
+}
+*/
+.drill-txt-lg h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	font-weight: 700;
+	display: block;
+	text-transform: uppercase;
+	position: relative;
+	text-align: center;
+	padding-left: 13px;
+	padding-right: 13px;
+	padding-bottom: 5px; 
+    z-index: 1;
+   
+}
+/*
+.drill-txt-lg.title_bg_content.test:after{
+    content: "testimonials";
+    top: 56%;
+}
+*/
+
+.drill-txt-lg:before {
+	left: 50%;
+    margin-left: -30px;
+}
+
+.drill-txt-lg:after {
+	left: 50%;
+	background-position: bottom left 2.3px;
+	-webkit-transform: rotate(180deg);
+	   -moz-transform: rotate(180deg);
+	    -ms-transform: rotate(180deg);
+	     -o-transform: rotate(180deg);
+	        transform: rotate(180deg);
+}
+.dtl-center {
+	position: relative;
+	display: block;
+    text-align: center;
+}
+
+.dtl-x {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.dtl-x:after,
+.dtl-x:before {
+	display: none;
+}
+
+.dtl-x > span {
+	color: #ffcd22;
+}
+/* === drill-txt-lg END ==== */
+
+
+/* ===== drill-txt-sm ====== */
+.drill-txt-sm {
+	font-weight: 700;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+/* === drill-txt-sm END ==== */
+
+
+/* ==== .drill-txt-xs ====== */
+.drill-txt-xs {
+	font-size: 14px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+}
+/* === .drill-txt-xs END === */
+
+
+/* ====== drill-txt-p ====== */
+.drill-txt-p {
+	font-size: 15px;
+	color: #606669;
+    font-weight: 500;
+    line-height: 25px;
+}
+/* ==== drill-txt-p END ==== */
+
+/* ==== drill-txt-2 ==== */
+.drill-txt-2 {
+	font-size: 14px;
+	font-weight: 500;
+	color: #3c474d;
+}
+
+.drill-item-in .drill-txt-2 {
+	color: #edac15;
+	font-size: 15px;
+	margin-top: 20px !important;
+	margin-bottom: 20px !important;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+.drill-logo .drill-txt-2 {
+	font-size: 12px !important;
+}
+
+.header-logo .drill-txt-2 {
+	color: #1d2c36;
+}
+
+.reference .drill-txt-2 {
+	padding: 60px 50px 10px !important;
+    text-align: left;
+    line-height: 25px;
+    color: #1d2c36;
+    font-size: 15px;
+}
+.author_slider span{
+    color: #5d6b76;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    margin-left: 8px;
+    font-weight: normal;
+}
+
+.footer-logo .drill-txt-2 {
+	color: #ffcd22;
+}
+
+.footer-end .drill-txt-2 a {
+	font-style: normal;
+	font-weight: 300;
+	color: #ffcd22;
+}
+/* ==== drill-txt-2 end ==== */
+
+/* ===================== DRILL TEXT FORMATE END ==================== */
+/* ================================================================= */
+
+/* ================================================================= */
+/* ======================= DRILL TRANSITIONS ======================= */
+#project-gallery-full a[rel="lightbox"]:after,
+.drill-btn,
+.service-name,
+.quick-links a,
+.member-ID:after,
+label.switch i.fa,
+a.slide-btn:before,
+.company-name a img,
+.drill-social a:after,
+.drill-social-footer a,
+.drill-mainmenu a:before,
+.footer-gallery li:before,
+.drill-social li span:after,
+.drill-mainmenu a:after,
+.drill-social a:before,
+ul.slider-menu li a,
+.drill-btn:before,
+.price-container:after,
+ul.gallery-pages a,
+.drill-mainmenu a,
+.member-detail a,
+.drill-btn:after,
+.price-holder,
+.drill-social a,
+.blog-post:after,
+.drill-social li span,
+.quick-links a i.fa,
+.footer-gallery li img,
+a.slide-btn-left:before,
+a.slide-btn-right:before,
+#project-gallery a[rel="lightbox"]:after {
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;
+	     -o-transition: all .3s ease-in-out;
+	        transition: all .3s ease-in-out;
+}
+
+/* ===================== DRILL TRANSITIONS END ===================== */
+/* ================================================================= */
+
+/* ================================================================= */
+/* ========================= DRILL BUTTON ========================== */
+
+/* drill button primary setup */
+a.drill-btn {
+	font-family: 'Raleway', sans-serif;
+	position: relative;
+	font-size: 12px;
+	font-weight: 600;
+	width: 144px;
+	height: 45px;
+	display: block;
+	text-align: center;
+	line-height: 45px;
+	color: #edac15;
+	background-color: transparent;
+	font-weight: 600;
+	overflow: hidden;
+	z-index: 1;
+}
+.drill-btn:hover {
+	color: #fff !important;
+}
+
+.drill-btn:before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	border: 1px;
+    border-style: solid;
+	background-color: transparent;
+	z-index: -1;
+}
+
+.drill-btn:after {
+	position: absolute;
+	content: '';
+	width: 120%;
+	height: 100%;
+	top: 0;
+	left: -140%;
+	background: #1d2c36;
+	z-index: -1;
+	-webkit-transform: skew(-30deg);
+	   -moz-transform: skew(-30deg);
+	    -ms-transform: skew(-30deg);
+	     -o-transform: skew(-30deg);
+	        transform: skew(-30deg);
+	
+	-webkit-transform-origin: bottom right;
+	   -moz-transform-origin: bottom right;
+	    -ms-transform-origin: bottom right;
+	     -o-transform-origin: bottom right;
+	        transform-origin: bottom right;
+	
+	-webkit-transition: all .5s ease-in-out;
+	   -moz-transition: all .5s ease-in-out;
+	    -ms-transition: all .5s ease-in-out;
+	     -o-transition: all .5s ease-in-out;
+	        transition: all .5s ease-in-out;
+}
+
+.drill-btn:hover:after {
+	left: -20%;
+}
+
+.btn-center {
+	margin: 0 auto;
+}
+
+.btn-right {
+	float: right;
+}
+/* ======================= DRILL BUTTON END ======================== */
+/* ================================================================= */
+
+
+/* ================================================================= */
+/* ========================= FIXED MENUBAR ========================= */
+
+/* nav background and ul positioning */
+.drill-menu {
+	z-index: 1000;
+}
+
+.drill-menu ul {
+	margin-bottom: 0;
+}
+.short-info{
+    position: relative;
+    z-index: 9999;
+}
+.menu-1 {
+	height: 50px;
+	padding-left: 40px;
+	padding-right: 0;
+	z-index: 1000;
+}
+
+
+.menu-1:after,
+.menu-2:after {
+	position: absolute;
+	width: 500%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.menu-1:after {
+	background: #1d2c36;
+}
+
+.menu-2:after {
+	/*background: rgba(255,255,255,.9);*/
+	background: #fff;
+}
+/* nav background and menu positioning end */
+
+
+/* <ul> positioning and <li> and <a> primary style */
+.menu-1 ul li:not(:first-of-type),
+.menu-2 ul:last-child {
+	float: right;
+}
+
+.menu-1 ul li:first-child,
+.menu-2 ul:first-child {
+	float: left;
+}
+
+.drill-menu ul li {
+	display: inline-block;
+}
+
+.drill-menu a {
+	display: block;
+	text-align: center;
+}
+
+.menu-1 ul li:last-child {
+	-webkit-transform: translate(-20px, 0);
+	   -moz-transform: translate(-20px, 0);
+	    -ms-transform: translate(-20px, 0);
+	     -o-transform: translate(-20px, 0);
+	        transform: translate(-20px, 0);
+}
+/* <ul> positioning and <li> and <a> primary style end */
+
+/*menu-1 style*/
+.menu-1 a {
+	font-family: 'Raleway', sans-serif;
+	color: #dbe8f6;
+	background: #1d2c36;
+	line-height: 50px;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+.menu-1 a i.fa {
+	color: #ffcd22;
+}
+/*menu-1 style end*/
+
+/*menu-2>.drill-logo style*/
+
+.drill-logo li .logo-box {
+	width: 46px;
+	height: 40px;
+}
+
+.drill-logo li .logo-box:after {
+	position: absolute;
+	content: '';
+	width: 65%;
+	height: 60%;
+	box-sizing: border-box;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+.drill-logo li {
+	display: inline-block;
+	float: left;
+}
+
+.drill-logo li:nth-child(even) {
+	display: block;
+	float: none;
+}
+
+.drill-logo h2 {
+	line-height: 5px;
+	font-weight: 900;
+	font-family: 'Raleway', sans-serif;
+	font-size: 28px !important;
+}
+
+.header-logo {
+	/*background: #ffcd22;*/
+	background: transparent;
+	display: block;
+	height: 100%;
+	box-sizing: border-box; 
+	/*margin-left: -15px;
+	width: 276px;*/
+}
+
+.header-logo .logo-box {
+    margin-top: 7px;
+/*
+	position: absolute;
+	left: 40px;
+	top:15px;
+	background: #fff;
+	-webkit-transform: translateY(-50%);
+	   -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	     -o-transform: translateY(-50%);
+	        transform: translateY(-50%);
+*/
+}
+/*
+.header-logo .logo-box a img{
+    max-width: 100%;
+}
+*/
+.header-logo .logo-box:after {
+	border: 5px;
+    border-style: solid;
+    border-color: #ffcd22;
+}
+
+.header-logo h2 {
+	color: #1d2c36;
+	margin-top: 40px;
+}
+
+
+.header-logo p {
+	color: #1d2c36;
+}
+
+/*menu-2>.drill-mainmenu style*/
+.drill-mainmenu {
+	position: absolute;
+	left: 46%;
+	-webkit-transform: translateX(-25%);
+	   -moz-transform: translateX(-25%);
+	    -ms-transform: translateX(-25%);
+	     -o-transform: translateX(-25%);
+	        transform: translateX(-25%);
+}
+.drill-mainmenu .dropdown .dropdown-menu a{
+	color: #1a2021;
+    background-color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	line-height: 40px;
+	font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
+.drill-mainmenu .dropdown .dropdown-menu li{
+    display: inline-block;
+    width: 100%;    
+}
+.drill-mainmenu .dropdown .dropdown-menu li a:before{
+    left: 0;
+}
+.drill-mainmenu .dropdown-menu{
+    padding: 0; 
+    margin-top: -1px; 
+    margin-left: -30px;
+} 
+.drill-mainmenu li .dropdown-menu{
+    display: block;
+    transition: all .3s ease-in-out;
+    transform: rotateX(-90deg);
+    transform-origin: top; 
+}
+.drill-mainmenu li:hover .dropdown-menu{
+    transform: rotateY(0deg);
+}
+.drill-mainmenu a {
+	color: #1a2021;
+	font-family: 'Raleway', sans-serif;
+	font-size: 13px;
+	line-height: 95px;
+	font-weight: 600;
+	margin-left: 20px;
+	position: relative;
+	overflow: hidden;
+}
+
+.drill-mainmenu a:hover, .drill-mainmenu a:focus,
+.drill-mainmenu a.active{
+	color: #ffcd22;
+    outline: none;
+}
+
+.drill-mainmenu a:before,
+.drill-mainmenu a:after,
+.drill-mainmenu a.active:before,
+.drill-mainmenu a.active:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 5px;
+	background: #ffcd22;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.drill-mainmenu a:before {
+	top: 50%;
+}
+
+.drill-mainmenu a:after {
+	bottom: 50%;
+	left: 0;
+}
+
+.drill-mainmenu a:hover:before,
+.drill-mainmenu a.active:before {
+	top: 0;
+	visibility: visible;
+	opacity: 1;
+}
+
+.drill-mainmenu a:hover:after,
+.drill-mainmenu a.active:after {
+	bottom: 0;
+	visibility: visible;
+	opacity: 1;
+}
+
+/* ===== menu-2>.drill-social style ===== */
+.drill-social li {
+	margin-top: 50%;
+	position: relative;
+	-webkit-transform: translate(0, -100%);
+	   -moz-transform: translate(0, -100%);
+	    -ms-transform: translate(0, -100%);
+	     -o-transform: translate(0, -100%);
+	        transform: translate(0, -100%);
+}
+
+/*tooltip for .drill-social*/
+.drill-social li span {
+	position: absolute;
+	display: block;
+	background: #ffcd22;
+	color: #fff;
+	text-align: center;
+	padding: 2px 5px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	font-size: 11px;
+	border-radius: 5px;
+	top: -40%;
+	visibility: hidden;
+	opacity: 0;
+	z-index: -1;
+}
+
+.drill-social li span:after {
+	content: '';
+	border-top-width: 8px;
+    border-top-style: solid;
+    border-color: #ffcd22;
+	border-bottom: 5px solid transparent !important;
+	border-left: 5px solid transparent !important;
+	border-right: 5px solid transparent !important;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	top: 100%;
+	z-index: -1;
+}
+
+.drill-social li span,
+.drill-social li span:after {
+	position: absolute;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.drill-social li a:hover ~ span {
+	visibility: visible;
+	opacity: 1;
+	top: -90%;
+}
+/*tooltip for .drill-social end*/
+
+/*.drill-social button*/
+.drill-social a {
+	color: rgba(29,46,57,.5);
+	line-height: 30px;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
+	opacity: .5;
+	z-index: 1;
+}
+
+.drill-social a:hover {
+	opacity: 1;
+	color: #fff;
+}
+
+.drill-social a:after,
+.drill-social a:before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.drill-social a:after {
+	background: #ffcd22;
+	-webkit-transform: scale(0);
+	   -moz-transform: scale(0);
+	    -ms-transform: scale(0);
+	     -o-transform: scale(0);
+	        transform: scale(0);
+}
+
+.drill-social a:hover:after {
+	-webkit-transform: scale(1);
+	   -moz-transform: scale(1);
+	    -ms-transform: scale(1);
+	     -o-transform: scale(1);
+	        transform: scale(1);
+}
+
+.drill-social a:before {
+	border: 1px;
+    border-style: solid;
+    border-color: rgba(29,46,57,.5) !important;
+}
+
+.drill-social a:hover:before {
+	visibility: hidden;
+	opacity: 0;
+	-webkit-transform: scale(1.3);
+	   -moz-transform: scale(1.3);
+	    -ms-transform: scale(1.3);
+	     -o-transform: scale(1.3);
+	        transform: scale(1.3);
+}
+
+
+/*.drill-social button end*/
+
+/* buttons for responsive menu */
+input[type="checkbox"] {
+	display: none;
+}
+
+label.switch {
+	color: #ffcd22;
+	font-weight: 500;
+	text-align: center;
+	display: none;
+	cursor: pointer;
+	margin-bottom: 0 !important;
+}
+
+label.switch i.fa {
+	float: left;
+	color: #ffcd22;
+	text-align: center;
+}
+
+label.switch i.fa:last-child {
+	padding-left: 5px;
+}
+
+label.switch-1 {
+	float: right;
+	margin-right: 40px;
+}
+
+label.switch-2 {
+	width: 80px;
+	position: absolute;
+	left: 60%;
+	top: 0;
+	font-size: 50px;
+	-webkit-transform: translate(-40%, 0);
+	   -moz-transform: translate(-40%, 0);
+	    -ms-transform: translate(-40%, 0);
+	     -o-transform: translate(-40%, 0);
+	        transform: translate(-40%, 0);
+}
+
+label.switch-3 {
+	width: 36px;
+	float: right;
+	margin-right: -10px;
+	-webkit-transform: translateY(200%);
+	   -moz-transform: translateY(200%);
+	    -ms-transform: translateY(200%);
+	     -o-transform: translateY(200%);
+	        transform: translateY(200%);
+}
+
+label.switch-1 i.fa {
+	display: inline-block;
+	line-height: 50px;
+	color: #ffcd22;
+	font-size: 18px;
+	cursor: pointer;
+	-webkit-animation-duration: 2.8s;
+	   -moz-animation-duration: 2.8s;
+	    -ms-animation-duration: 2.8s;
+	     -o-animation-duration: 2.8s;
+	        animation-duration: 2.8s;
+}
+
+label.switch-1 i.fa-cog {
+	font-size: 22px;
+}
+
+label.switch-2 i.fa {
+	line-height: 95px;
+}
+
+label.switch-2 i.fa:last-child {
+	font-size: 30px;
+}
+
+input[type="checkbox"]:checked ~ label.switch-2 i.fa-spin {
+	-webkit-animation: none;
+	   -moz-animation: none;
+	    -ms-animation: none;
+	     -o-animation: none;
+	        animation: none;
+}
+
+label.switch-3 i.fa {
+	display: inline-block;
+	font-size: 25px;
+	color: #ffcd22;
+	font-size: 18px;
+	cursor: pointer;
+	-webkit-animation-duration: 2.8s;
+	animation-duration: 2.8s;
+}
+
+input[type="checkbox"]:checked + label > i.fa-ellipsis-v {
+	-webkit-transform: translateY(5px);
+	   -moz-transform: translateY(5px);
+	    -ms-transform: translateY(5px);
+	     -o-transform: translateY(5px);
+	        transform: translateY(5px);
+}
+/* buttons for responsive menu */
+/* ===== menu-2>.drill-social style end ===== */
+
+/* ======================= FIXED MENUBAR END ======================= */
+/* ================================================================= */
+
+
+/* ================================================================= */
+/* =========================== HEADER-LG =========================== */
+.header-lg {
+	width: 100%;
+	position: relative;
+}
+
+.drill-item {
+	height: 80vh !important;
+	max-height: 100vh !important;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.drill-item:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 5000px;
+	background: rgba(29,44,54,.5);
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.drill-item-pos {
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	padding: 0;
+	z-index: 5;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.drill-item-in {
+	width: 100%;
+}
+
+.drill-item-in h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	color: #fff;
+	line-height: 60px;
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: #1d2c36;
+	margin-bottom: 0px;
+	padding: 0 50px 0 20px;
+	display: inline-block;
+	position: relative;
+}
+
+.drill-item-in h2:last-of-type {
+	margin-top: 8px !important;
+	padding: 0 50px 0 20px;
+}
+
+/*
+.drill-item-in h2:after {
+	position: absolute;
+	content: '';
+	border-top: 60px solid #ffcd22;
+	border-bottom: 60px solid transparent;
+	border-left: 60px solid transparent;
+	border-right: 60px solid transparent;
+	top: 0;
+	right: 0;
+	-webkit-transform: translateX(50%);
+	   -moz-transform: translateX(50%);
+	    -ms-transform: translateX(50%);
+	     -o-transform: translateX(50%);
+	        transform: translateX(50%);
+}
+*/
+
+.drill-item-in p {
+	margin-top: 20px;
+	margin-bottom: 0 !important;
+}
+
+a.slide-btn:before {
+	position: absolute;
+	font-size: 60px;
+	margin-left: 0;
+	padding: 0 5px;
+	top: 45%;
+	z-index: 2;
+	color: rgba(255,255,255,.5);
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+a.slide-btn:hover:before {
+	opacity: 1;
+	color: #edac15;
+}
+
+a.slide-btn-left:before {
+	left: 0;
+	-webkit-transform: translateX(10%);
+	   -moz-transform: translateX(10%);
+	    -ms-transform: translateX(10%);
+	     -o-transform: translateX(10%);
+	        transform: translateX(10%);
+}
+
+a.slide-btn-right:before {
+	right: 0;
+	-webkit-transform: translateX(-10%);
+	   -moz-transform: translateX(-10%);
+	    -ms-transform: translateX(-10%);
+	     -o-transform: translateX(-10%);
+	        transform: translateX(-10%);
+}
+
+.drill-indicators {
+	bottom: 25px !important;
+	z-index: 9 !important;
+}
+
+.drill-indicators li.active {
+	background: #edac15;
+	border: 0;
+}
+
+.drill-indicators li {
+	border-color: #edac15;
+}
+
+/* ========================= HEADER_LG END ========================= */
+/* ================================================================= */
+
+
+/* ================================================================= */
+/* =========================== MAIN FEATURE ======================== */
+
+.blog-1 {
+	margin-top: 30px;
+/*	margin-bottom: 25px;*/
+}
+
+.blog-post:nth-of-type(1) .post-iner {
+	-webkit-animation-duration: .5s;
+	   -moz-animation-duration: .5s;
+	    -ms-animation-duration: .5s;
+	     -o-animation-duration: .5s;
+	        animation-duration: .5s;
+}
+
+.blog-post:nth-of-type(2) .post-iner {
+	-webkit-animation-duration: 2s;
+	   -moz-animation-duration: 2s;
+	    -ms-animation-duration: 2s;
+	     -o-animation-duration: 2s;
+	        animation-duration: 2s;
+}
+
+.blog-post:nth-of-type(3) .post-iner {
+	-webkit-animation-duration: 3s;
+	   -moz-animation-duration: 3s;
+	    -ms-animation-duration: 3s;
+	     -o-animation-duration: 3s;
+	        animation-duration: 3s;
+}
+
+.post-iner {
+	text-align: center !important;
+}
+
+.feature-img {
+    padding-top: 35px;
+    padding-bottom: 42px;
+    margin: 0 auto;
+}
+
+.post-iner span:before {
+	color: #ffcd22;
+	font-size: 50px;
+	line-height: 130px;
+}
+
+.post-iner p:last-of-type {
+	padding: 0 25px;
+}
+
+/* ========================= MAIN FEATURE END ====================== */
+/* ================================================================= */
+
+
+/* =============================================================== */
+/* ======================= LATEST PROJECT ======================== */
+
+ul.slider-menu,
+ul.slider-menu li {
+	float: left;
+	position: relative;
+}
+
+ul.slider-menu li {
+ 	left: -50%;
+}
+
+ul.slider-menu {
+	left: 50%;
+}
+
+ul.slider-menu li a {
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	display: block;
+	text-align: center;
+	line-height: 20px;
+	position: relative;
+	cursor: pointer;
+	padding: 0 15px 0 15px;
+}
+
+ul.slider-menu li a.active, 
+ul.slider-menu li a:hover {
+	color: #ffcd22;
+}
+
+ul.slider-menu li:first-child a:before,
+ul.slider-menu li a:after {
+	position: absolute;
+	content: '';
+	width: .5px;
+	height: 15px;
+	top: 50%;
+	z-index: -1;
+	border: 1px solid #fff;
+	border-left-color: rgba(29,46,57,.4);
+	-webkit-transform: translateY(-50%);
+	   -moz-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	     -o-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+
+ul.slider-menu li a:after {
+	right: 0;
+}
+
+ul.slider-menu li:first-child a:before {
+	left: 0;
+}
+
+.slider-bg {
+	height: 250px;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	margin-top: 110px;
+}
+
+.slider-bg:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(29,46,57,.7);
+	z-index: 1;
+}
+
+#project-gallery div img {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+	height: auto;
+}
+.drill-price .drill-txt-lg:before{
+    bottom: 30px !important;
+}
+
+.drill-prev:before,
+.drill-next:before {
+	position: absolute;
+	top: 38.2%;
+	font-size: 30px;
+	padding: 0 10px;
+	color: #000;
+	background: #ffcd22;
+	z-index: 1;
+}
+
+.drill-prev:before {
+	left: 0;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.drill-next:before {
+	right: 0;
+	-webkit-transform: translateX(50%);
+	-ms-transform: translateX(50%);
+	-o-transform: translateX(50%);
+	transform: translateX(50%);
+}
+
+#project-gallery a[rel="lightbox"],
+#project-gallery-full a[rel="lightbox"] {
+	position: relative;
+	display: block;
+	height: auto;
+	width: 100%;
+}
+.project-slide{
+    position: relative;
+}
+.galary_hover_bg{
+    background: rgba(0,0,0,.7);
+    /*background: rgba(255,205,34,.8);*/
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    z-index: 99;
+    top: 0;
+    opacity: 0;
+    transition: all 300ms ease-in-out;
+}
+.galary_hover_bg img{
+    height: 50px !important;
+    width: 50px !important;
+    position: absolute;
+    top: 50%;
+    transform: translateX(0%) translateY(-50%);
+    left: 0;
+    right: 0;
+    
+}
+.project-slide:hover .galary_hover_bg{
+    opacity: 1;
+}
+
+/*
+#project-gallery a[rel="lightbox"]:after,
+#project-gallery-full a[rel="lightbox"]:after {
+	position: absolute;
+	content: "\e000";
+	font-family: 'Flaticon';
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	background: rgba(255,205,34,.8);
+	top:0;
+	left: 0;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 9;
+    line-height: 185px;
+}*/
+
+
+#project-gallery-full a[rel="lightbox"]:after {
+	line-height: 290px !important;
+}
+
+#project-gallery a[rel="lightbox"]:hover:after,
+#project-gallery-full a[rel="lightbox"]:hover:after {
+	visibility: visible;
+	opacity: 1;
+	top: 0;
+}
+
+.slider-txt p {
+	color: #fff;
+	font-size: 15px;
+	font-weight: 500;
+    line-height: 25px;
+}
+
+.slider-frame {
+	position: absolute;
+	height: inherit;
+	z-index: 2;
+	left: 50%;
+	top: -36%;
+	-webkit-transform: translate(-50%, 0);
+	   -moz-transform: translate(-50%, 0);
+	    -ms-transform: translate(-50%, 0);
+	     -o-transform: translate(-50%, 0);
+	        transform: translate(-50%, 0);
+}
+
+.slider-bg-txt {
+	position: relative;
+	z-index: 2;
+    margin-top: 150px;
+}
+
+/* ===================== LATEST PROJECT END ====================== */
+/* =============================================================== */
+
+
+/* =============================================================== */
+/* ======================== OUR SERVICE ========================== */
+
+.service-head {
+	margin-left: 0;
+	padding-left: 0;
+} 
+.service-head .drill-txt-lg:before{
+    bottom: 45px !important;
+}
+.service-head h2{
+    padding: 0px 0px 50px 0px !important;
+}
+.service-head .drill-txt-lg{
+    padding: 7px 0px 0px 0px;
+}
+/*
+.drill-txt-lg.title_bg_content.service:after{
+    content: "our service";
+}
+*/
+.
+.service-head p {
+	margin: 15px 0 80px 0;
+}
+
+.service-list {
+	margin-left: 0;
+	padding-left: 0;
+	width: 100%;
+}
+
+.service-list-group {
+	width: 100%;
+	position: relative;
+}
+/*
+.service-list-group:after {
+	position: absolute;
+	content: '';
+	width: 1000%;
+	height: 100%;
+	background: #f5f8fa;
+	top: 0;
+	right: 0;
+	z-index: -1;
+}
+*/
+.service-list-group li {
+	position: relative;
+}
+
+.service-list-group li:not(:first-of-type):after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 1px;
+	background: rgba(29,57,46,.1);
+	left: 0;
+	top: 0;
+}
+
+.service-doc h3 {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.service-name {
+	display: block;
+	line-height: 70px;
+	text-align: left;
+	/*padding-left: 30%;*/
+	padding-left: 30px;
+	font-family: 'Raleway', sans-serif;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #202e31;
+	position: relative;
+}
+
+.service-name:hover {
+	background: #edac15;
+	color: #fff;
+}
+
+/*.service-name:before {*/
+	/*position: absolute;*/
+	/*content: '';*/
+	/*font-family: "Flaticon";*/
+	/*font-size: 20px;*/
+	/*font-weight: 300;*/
+	/*color: #ffcd22;*/
+	/*top: 50%;*/
+	/*left: 10%;*/
+	/*-webkit-transform: translateY(-50%);*/
+	   /*-moz-transform: translateY(-50%);*/
+	    /*-ms-transform: translateY(-50%);*/
+	     /*-o-transform: translateY(-50%);*/
+	        /*transform: translateY(-50%);*/
+/*}*/
+.service-name i {
+    font-size: 20px;
+    font-weight: 300;
+    color: #edac15;
+    position: relative;
+    left: -20px;
+    top: 4px;
+}
+
+.active .service-name i {
+    color: #ffffff;
+}
+
+/*.service-list-group li:nth-of-type(1) .service-name:before {content: "\e051";}*/
+/*.service-list-group li:nth-of-type(2) .service-name:before {content: "\e018";}*/
+/*.service-list-group li:nth-of-type(3) .service-name:before {content: "\e048";}*/
+/*.service-list-group li:nth-of-type(5) .service-name:before {content: "\e016";}*/
+/*.service-list-group li:nth-of-type(6) .service-name:before {content: "\e036";}*/
+
+.service-name:hover:before {
+	color: #fff;
+}
+
+.service-list-group a.active {
+	background: #edac15;
+	color: #fff;
+	z-index: 1;
+	position: relative;
+}
+
+.service-list-group a.active:before {
+	color: #fff;
+}
+
+.service-list-group a.active:after {
+	position: absolute;
+	content: '';
+	top: 50%;
+	right: 0;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-top: 10px solid #fff;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid transparent;
+	-webkit-transform: rotate(90deg) translateX(-50%);
+	   -moz-transform: rotate(90deg) translateX(-50%);
+	    -ms-transform: rotate(90deg) translateX(-50%);
+	     -o-transform: rotate(90deg) translateX(-50%);
+	        transform: rotate(90deg) translateX(-50%);
+}
+
+.service-doc > h3 {
+	color: #000;
+	margin-top: 0;
+	padding-top: 0;	
+}
+
+.service-doc ul {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.service-doc img {
+	/*margin-top: -100px;*/
+	margin-top: 0px;
+}
+
+.service-doc .col-sm-push-6 img {
+	float: right;
+}
+
+.service-doc i.fa {
+	color: #edac15;
+}
+
+.service-doc ul > li:nth-child(even) {
+	padding: 15px 0;
+}
+
+.service-doc ul > li span {
+	font-weight: 500;
+	color: #606669;
+}
+/* ====================== OUR SERVICE END ======================== */
+/* =============================================================== */
+
+
+/* =============================================================== */
+/* ===================== WORK COUNTER START ====================== */
+
+.work-count {
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 70px 0;
+	position: relative;
+	overflow: hidden;
+	z-index: 9;
+}
+
+.work-count:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: rgba(29,44,54,.7) !important;
+	top: 0;
+	left: 0;
+	z-index: -1;
+    display: block !important;
+}
+
+.work-count:before {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 1000px;
+/*	background: #a1adb6;*/
+    background: #fff;
+	opacity: .03;
+	left: 46%;
+	top: 0;
+}
+
+.work-doc {
+	height: inherit;
+}
+
+.work-doc > h2  {
+	font-family: 'Raleway', sans-serif;
+	font-size: 24px;
+	font-weight: 800;
+	color: #fff;
+	margin-top: 0;
+	padding-top: 0;
+	text-transform: uppercase;
+}
+
+.work-doc > h2 > span {
+	color: #edac15;
+}
+
+.work-doc p {
+	margin: 20px 0 30px 0;
+	color: #fff;
+}
+
+/*Counter*/
+.work-counter {
+	position: relative;
+}
+
+.work-counter:after {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 100%;
+	background: #fff;
+	opacity: .03;
+	left: 40%;
+	top: 22px;
+}
+
+.work-counter:before {
+	position: absolute;
+	content: '';
+	width: 85%;
+	height: 1px;
+	background: #fff;
+	opacity: .03;
+	top: 61%;
+	right: 16%;
+}
+
+.work-counter .drill-txt-lg:after,
+.work-counter .drill-txt-lg:before {
+	display: none;
+}
+
+.work-counter .drill-txt-lg {
+	margin-bottom: 0;
+	padding-bottom: 5px;
+	font-size: 30px;
+	line-height: 30px;
+	font-weight: 900;
+	color: #fff;
+	font-family: roboto; 
+}
+
+.work-counter .drill-txt-xs {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 11px;
+	font-weight: 800;
+	color: #fff;
+}
+
+.counter {
+	width: 25%;
+	float: left;
+	position: relative;
+}
+/*
+.counter:nth-of-type(1),
+.counter:nth-of-type(2) {
+	padding-bottom: 70px;
+}
+.counter_mg{
+    margin-left: -18px;   
+}
+.counter:nth-of-type(4),
+.counter:nth-of-type(3) {
+	padding-top: 30px;
+}
+.counter:nth-child(3){
+    margin-top: -65px;
+}
+.counter:nth-child(4){
+    margin-top: -65px;
+}*/
+.counter-icon {
+	margin-top: 10px;
+	padding-right: 10px;
+}
+.c-icon-wrapper i{
+    font-size: 36px;
+    line-height: 60px;
+}
+.c-icon-wrapper i:before {
+	font-size: 36px;
+}
+
+.c-icon-wrapper {
+	width: 90px;
+	height: 60px;
+	display: block;
+	line-height: 60px;
+	background: #edac15;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	z-index: 5;
+    /*margin-top: 60px;
+    margin-right: 20px;
+	left: 35%;*/
+	margin: 0 auto;
+}
+
+.c-icon-wrapper:before,
+.c-icon-wrapper:after {
+	position: absolute;
+	content: '';
+	border-left: 45px solid transparent !important;
+	border-right: 45px solid transparent !important;
+	left: 0;
+	color: #fff;
+	z-index: 1;
+}
+
+.c-icon-wrapper:before {
+	border-top: 26px;
+    border-top-style: solid;
+    border-color: #edac15;
+	top: 100%;
+}
+
+.c-icon-wrapper:after {
+	border-bottom: 26px;
+    border-bottom-style: solid;
+    border-color: #edac15;
+	bottom: 100%;
+}
+/*
+.counter-icon,
+.counter-num {
+	float: left;
+}*/
+.counter-num,
+.counter-num h4 {
+	text-align: center;
+}
+.drill-txt-xs
+/*Counter end*/
+
+/* ====================== WORK COUNTER END ======================= */
+/* =============================================================== */
+
+
+/* =============================================================== */
+/* ====================== DRILL-PRICE START ====================== */
+.price-holder {
+	-webkit-animation-duration: 2s;
+	   -moz-animation-duration: 2s;
+	    -ms-animation-duration: 2s;
+	     -o-animation-duration: 2s;
+	        animation-duration: 2s;
+}
+.drill-price .drill-txt-lg{
+    padding: 5px 0px 30px 0px;
+}
+.price-holder h2 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px !important;
+	font-weight: 900 !important;
+	color: #ffcd22;
+	text-align: center !important;
+}
+
+
+.price-holder p {
+	font-size: 18px;
+	font-weight: 500;
+	color: #5d6b76;
+	text-transform: capitalize;
+	text-align: center !important;
+}
+
+.price-holder ul {
+	padding-top: 25%;
+	position: relative;
+    margin-left: 0;    
+}
+
+.price-holder ul:after {
+	position: absolute;
+	content: '';
+	width: 80%;
+	height: 1px;
+	background: rgba(29,44,54,.2);
+	top: 20%;
+	left: 10%;
+}
+
+.price-holder li {
+	font-size: 15px;
+	font-weight: 400;
+	color: #5d6b76;
+	text-align: center !important;
+    line-height: 25px;
+}
+
+/* ======================= DRILL-PRICE END ======================= */
+/* =============================================================== */
+
+
+/* =============================================================== */
+/* ======================= OUR TEAM START ======================== */
+
+.drill-team {
+	background-attachment: fixed;
+	background-size: cover;
+	margin-top: 125px;
+	padding: 70px 0;
+	overflow: hidden;
+	position: relative;
+	z-index: 9;
+}
+.drill-team .drill-txt-lg:before{
+    bottom: 49px !important;
+    background: #fff;
+}
+.drill-team .drill-txt-lg{
+    padding: 5px 0px 50px 0px;
+}
+.drill-team:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 5000px;
+	background: rgba(29,44,54,.7);
+	top: 0;
+	left: 0;
+	z-index: -2;
+}
+
+.drill-team h2 {
+	color: #fff;
+    z-index: 999;
+}
+
+.member-ID {
+	margin-bottom: 120px;
+}
+
+.member-ID:after {
+	background: #fff;
+}
+
+.memmbers {
+	width: 85%;
+	overflow: hidden;
+	-webkit-animation-duration: 2s;
+	   -moz-animation-duration: 2s;
+	    -ms-animation-duration: 2s;
+	     -o-animation-duration: 2s;
+	        animation-duration: 2s;
+}
+
+.drill-team .memmbers img {
+	display: block;
+	width: 100%;
+}
+
+ul.member-detail {
+	position: relative;
+	margin-left: 50%;
+	padding-top: 20px;
+	-webkit-transform: translateX(-40%);
+	   -moz-transform: translateX(-40%);
+	    -ms-transform: translateX(-40%);
+	     -o-transform: translateX(-40%);
+	        transform: translateX(-40%);
+}
+
+.member-detail li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.member-detail a {
+	font-size: 18px;
+	color: #1D2C36;
+}
+
+.member-detail a:hover {
+	color: #fff;
+}
+
+.member-name {
+	position: absolute;
+	margin-bottom: 100px;
+	left: 50%;
+	z-index: 2;
+	text-transform: capitalize;
+	-webkit-transform: translateX(-55%);
+	   -moz-transform: translateX(-55%);
+	    -ms-transform: translateX(-55%);
+	     -o-transform: translateX(-55%);
+	        transform: translateX(-55%);
+}
+
+.member-name:first-of-type {
+	top: 110%;
+	color: #ffcd22;
+	font-size: 20px;
+}
+
+.member-name:last-of-type {
+	top: calc(110% + 30px);
+	color: #fff;
+}
+/* ======================== OUR TEAM END ========================= */
+/* =============================================================== */
+
+
+/* =============================================================== */
+/* ======================== DRILL-REFERENCE ====================== */
+
+
+.drill-reference {
+	position: relative;
+	z-index: 1;
+}
+.drill-reference .drill-txt-lg:before{
+    bottom: 16px !important;
+}
+.testimonials_bg{
+    background-size: cover;
+    position: relative;    
+}
+.testimonials_bg:after{
+    content: "";
+    position: absolute;
+    background: rgba(225, 225, 225, .9);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block !important;
+}
+.reference {
+	position: relative;
+}
+.drill-reference .drill-txt-lg{
+    padding: 90px 0px 16px 0px;
+}
+.author_slider{
+    background: #fff;
+    margin-top: -50px;
+}
+.author_slider::after {
+  border-image: none;
+  border-bottom: 10px;
+  border-bottom-style: solid;
+  border-color: #edac15;
+  bottom: 0;
+  content: "";
+  height: 50%;
+  left: 2%;
+  position: absolute;
+  width: 97%;
+}
+.author_slider::before {
+    border-image: none;
+    border-right: 10px solid #edac15;
+    bottom: 0;
+    content: "";
+    height: 50%;
+    right: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.reference:after {
+	position: absolute;
+	content: "\e024";
+	text-align: center;
+	font-family: "Flaticon";
+	font-size: 50px;
+	opacity: .03;
+	z-index: -1;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.img-frame {
+	width: 105px;
+	height: 105px;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 50px;
+    top: 50px;
+}
+
+.img-frame-2 img {
+	display: block;
+}
+
+.reference-slider {
+	position: relative;
+	overflow: hidden;
+}
+
+.reference p:first-of-type {
+	
+}
+
+.reference p:last-of-type {
+	font-size: 12px;
+	font-weight: 700;
+	color: #808080;
+    margin-top: -8px;
+}
+
+.reference h4 {
+	color: #000;
+	text-transform: capitalize;
+    padding: 0px 0 25px;
+}
+
+/*Dots*/
+.drill-dots {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+        margin-left: 0px;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.reference-slider {
+	height: 400px;
+    /*width: 65%;*/
+    margin: 0 auto;
+}
+
+.drill-dots li {
+	border: 1px solid #edac15;
+	border-radius: 10px;
+	position: relative;
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+	padding: 0;
+	cursor: pointer;
+}
+
+.drill-dots li button,
+.drill-dots li button {
+	display: none;
+}
+
+.drill-dots li.slick-active {
+	border: 0;
+	background: #edac15;
+}
+
+/* ====================== DRILL-REFERENCE END ==================== */
+/* =============================================================== */
+
+
+/* =============================================================== */
+/* ====================== COMPANY LOGO START ===================== */
+
+.company-name {
+	border: 1px solid rgba(29,57,46,.1);
+	border-right: 0;
+	border-left: 0;
+	padding: 30px 0;
+}
+
+.company-name a img {
+	opacity: .7;
+}
+
+.company-name a:hover img {
+	opacity: 1;
+}
+
+#company-logo {
+	display: block;
+	margin: 0 auto;
+	-webkit-animation-duration: 2s;
+	   -moz-animation-duration: 2s;
+	    -ms-animation-duration: 2s;
+	     -o-animation-duration: 2s;
+	        animation-duration: 2s;
+}
+
+#company-logo div img {
+	display: block;
+	margin: 0 auto;
+}
+
+/* ======================= COMPANY LOGO END ====================== */
+/* =============================================================== */
+
+
+/* =============================================================== */
+/* ======================= DRILL FOOTER START ==================== */
+
+.footer-wrapper {
+	position: relative;
+	background: #1d2c36;
+}
+.rocket_area-s {
+    background: #1d2c36;
+}
+.rocket_area_img {
+    overflow: hidden;
+    padding: 35px 0px; 
+}
+.rocket_area_img .rocket_img{
+    text-align: center;
+    overflow: hidden;
+}
+.footer-wrapper .widget .textwidget{
+	color: #a4b0b6;
+	line-height: 25px;
+}
+.rocket_area_img .rocket_img img{
+    
+}
+/*.drill-other-header ~ .footer-wrapper {
+	margin-top: 75px;
+}*/
+
+.subscribe {
+	position: absolute;
+	height: 120px;
+	top: 60px;
+	left: 50%;
+	z-index: 9;
+	padding-top: 30px;
+	padding-right: 50px;
+	background: #ffcd22;
+	-webkit-transform: translate(-50%, -50%);
+	   -moz-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	     -o-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+
+.subscribe:after {
+	position: absolute;
+	content: '';
+	width: 150%;
+	height: 100%;
+	background-size: cover;
+	right: 0;
+	top: 0;
+	z-index: -2;
+}
+
+.subscribe:before {
+	position: absolute;
+	content: '';
+	width: 150%;
+	height: 100%;
+	background: rgba(255,205,34,.84);
+	right: 0;
+	top: 0;
+	z-index: -1;
+}
+
+.subc-txt p {
+	font-size: 20px;
+	font-weight: 500;
+	color: #fff;
+	line-height: 50px;
+}
+
+.subc-txt p span {
+	font-weight: 700;
+	color: #8b721c;
+}
+
+.my-form-in {
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	border-radius: 5px;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+
+#drill-mail::-webkit-input-placeholder {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	color: #c2c3c3;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;
+	     -o-transition: all .3s ease-in-out;
+	        transition: all .3s ease-in-out;
+}
+#drill-mail::-moz-placeholder {
+	font-family: 'Bitter', serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #c2c3c3;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;
+	     -o-transition: all .3s ease-in-out;
+	        transition: all .3s ease-in-out;
+}
+#drill-mail:-ms-input-placeholder {
+	font-family: 'Bitter', serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #c2c3c3;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;
+	     -o-transition: all .3s ease-in-out;
+	        transition: all .3s ease-in-out;
+}
+#drill-mail::placeholder {
+	font-family: 'Bitter', serif;
+	font-size: 14px;
+	font-style: italic;
+	color: #c2c3c3;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;
+	     -o-transition: all .3s ease-in-out;
+	        transition: all .3s ease-in-out;
+}
+
+#drill-mail:focus::-webkit-input-placeholder {
+	letter-spacing: 5px;
+	visibility: hidden;
+	opacity: 0;
+}
+#drill-mail:focus::-moz-placeholder {
+	letter-spacing: 5px;
+	visibility: hidden;
+	opacity: 0;
+}
+#drill-mail:focus:-ms-input-placeholder {
+	letter-spacing: 5px;
+	visibility: hidden;
+	opacity: 0;
+}
+#drill-mail:focus::placeholder {
+	letter-spacing: 5px;
+	visibility: hidden;
+	opacity: 0;
+}
+
+.my-form-in form {
+	width: 100%;
+	height: 100%;
+	padding: 10px 0;
+	overflow: hidden;
+}
+
+.my-form-in form input {
+	width: 80%;
+	height: 100%;
+	float: left;
+}
+
+.my-form-in form button {
+	width: 20%;
+	height: 100%;
+	float: right;
+	display: block;
+	background: transparent;
+	color: #c2c3c3;
+}
+
+.drill-sub {
+	position: relative;
+}
+
+.drill-sub i:before {
+	margin-left: 0;
+}
+
+.paper-hover {
+	position: absolute;
+	visibility: hidden;
+	bottom: -35%;
+	opacity: 1;
+	color: #525353;
+	left: 25%;
+}
+
+.paper-hover:before {
+	font-size: 25px;
+}
+
+.drill-sub:hover .paper-hover {
+	visibility: visible;
+	opacity: 0;
+	bottom: 60%;
+	left: 60%;
+	-webkit-transition: all .6s ease-in-out;
+	   -moz-transition: all .6s ease-in-out;
+	    -ms-transition: all .6s ease-in-out;
+	     -o-transition: all .6s ease-in-out;
+	        transition: all .6s ease-in-out;
+}
+
+/* .footer */
+.footer {
+	margin-top: 50px;
+	/*margin-bottom: 50px;*/
+}
+
+.footer-col:nth-of-type(1),
+.footer-col:nth-of-type(4) {
+	-webkit-animation-duration: 2s;
+	   -moz-animation-duration: 2s;
+	    -ms-animation-duration: 2s;
+	     -o-animation-duration: 2s;
+	        animation-duration: 2s;
+}
+
+/* footer-logo */
+.footer-first {
+	/*padding-left: 0;
+	padding-right: 30px !important;*/
+}
+
+.footer-logo {
+	width: 100%;
+}
+
+.footer-logo .logo-box {
+	width: 46px;
+	height: 40px;
+	margin-top: -10px;
+	margin-right: 10px;
+	background: #ffcd22;
+	position: relative;
+}
+
+.footer-logo .logo-box:after {
+	border: 5px solid #1a2021;
+	background: #fff;
+}
+
+.footer-logo h2 {
+	color: #fff;
+}
+
+.footer-logo p {
+	color: #ffcd22;
+}
+
+.footer-txt {
+	margin: 10px 0;
+}
+
+.footer-txt p {
+	font-size: 15px;
+	font-weight: 400;
+	color: #a4b0b6;
+	padding: 10px 0;
+    line-height: 25px;
+}
+
+.drill-social-footer {
+	margin-top: 20px;
+}
+
+.drill-social-footer li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.drill-social-footer a {
+	color: #fff;
+	font-weight: 500;
+}
+
+.drill-social-footer a:hover {
+	color: #ffcd22;
+}
+/*footer-logo end*/
+
+/* quick-links */
+.footer h3 {
+	color: #fff;
+	margin-top: 0;
+}
+
+.quick-links li {
+	margin-bottom: 10px;
+}
+
+.quick-links li:first-child {
+	margin-top: 20px;
+}
+
+.quick-links a {
+	color: #a4b0b6;
+}
+
+.quick-links a:hover i.fa {
+	color: #ffcd22;
+	-webkit-transform: translateX(100%);
+	   -moz-transform: translateX(100%);
+	    -ms-transform: translateX(100%);
+	     -o-transform: translateX(100%);
+	        transform: translateX(100%);
+}
+
+.quick-links a:hover {
+	color: #edac15;
+}
+/* quick-links end */
+
+
+/* twitter-part */
+.twitter-part li {
+	margin-left: 50px;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.twitter-part li:first-child {
+	margin-top: 20px;
+}
+
+.twitter-part li i.fa {
+	position: absolute;
+	color: #fff;
+	text-align: center;
+	font-size: 15px;
+	line-height: 35px;
+	background: #3498db;
+	width: 35px;
+	height: 35px;
+	border-radius: 40px;
+	top: 0;
+	right: 100%;
+	-webkit-transform: translateX(-60%);
+	   -moz-transform: translateX(-60%);
+	    -ms-transform: translateX(-60%);
+	     -o-transform: translateX(-60%);
+	        transform: translateX(-60%);
+}
+
+.twitter-part {
+	color: #fff;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.twitter-part span {
+	font-weight: 500;
+	font-size: 14px;
+	color: #a4b0b6;
+}
+
+.twitter-part span a {
+	color: #f2f2f2;
+}
+
+.twitter-part p {
+	font-weight: 500;
+	font-size: 13px;
+	color: #576673;
+	margin-top: 10px;
+}
+/* twitter-part end */
+
+/* footer-gallery */
+.footer-gallery ul {
+	margin-top: 20px;
+}
+
+.footer-gallery li {
+	width: 33.33%;
+	float: left;
+	position: relative;
+	border: 1px solid #1a2021;
+	overflow: hidden;
+}
+
+.footer-gallery li:before {
+	position: absolute;
+	content: "\e000";
+	font-family: "Flaticon";
+	line-height: 60px;
+	font-size: 30px;
+	color: #ffcd22;
+	cursor: pointer;
+	left: 50%;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transform: translate(-50%, 0) scale(0);
+	   -moz-transform: translate(-50%, 0) scale(0);
+	    -ms-transform: translate(-50%, 0) scale(0);
+	     -o-transform: translate(-50%, 0) scale(0);
+	        transform: translate(-50%, 0) scale(0);
+}
+
+.footer-gallery li:hover:before {
+	visibility: visible;
+	opacity: 1;
+	-webkit-transform: translate(-50%, 0) scale(1);
+	   -moz-transform: translate(-50%, 0) scale(1);
+	    -ms-transform: translate(-50%, 0) scale(1);
+	     -o-transform: translate(-50%, 0) scale(1);
+	        transform: translate(-50%, 0) scale(1);
+}
+
+.footer-gallery li img {
+	display: block;
+	width: 100%;
+	height: 60px;
+}
+
+.footer-gallery ul img:hover {
+	opacity: .3;
+}
+/* footer-gallery end */
+
+/*footer-end*/
+.footer-end {
+	background: #1c2931;
+}
+
+.footer-end span {
+	line-height: 70px;
+	display: block;
+	text-align: center;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+}
+/* ======================= DRILL FOOTER END ====================== */
+/* =============================================================== */
+
+/* =x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x=x= */
+
+/* ============================== DRILL HOME PAGE STYLE END ========================================== */
+/* =================================================================================================== */
+/* =================================================================================================== */
+/* =========================== DRILL SERVICES PAGE STYLE START ======================================= */
+.services-bg {
+	background: url(../images/subscribe.jpg) no-repeat top center fixed;
+	background-size: cover;
+}
+
+.service-price {
+	padding-top: 70px;
+	border-top: 1px solid rgba(29,44,54,.2);
+}
+
+.services-bg ~ .blog-1 {
+	margin-top: 0;
+}
+
+.drill-quote {
+	background: url(../images/counter-bg.png) no-repeat top center fixed;
+	background-size: cover;
+	position: relative;
+	height: 300px;
+	margin-top: 125px;
+	z-index: 1;
+}
+
+.drill-quote:before {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	background: rgba(29,44,54,.7);
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.drill-quote:after {
+	position: absolute;
+	content: "\e024" !important;
+	text-align: center;
+	font-family: "Flaticon";
+	color: rgba(29,44,54,.9);
+	font-size: 80px;
+	z-index: -1;
+	top: 15px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.drill-quote p {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	font-size: 16px;
+	color: #7f8d98;
+	padding-top: 11%;
+}
+
+.drill-quote span {
+	display: block;
+	margin: 0 auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #fff;
+	text-align: center;
+}
+
+.drill-quote span a {
+	position: relative;
+}
+
+.drill-quote span a:after,
+.drill-quote span a:before {
+	position: absolute;
+	content: '';
+	width: 30px;
+	height: 1px;
+	background: #5d6b76;
+	top: 50%;
+}
+
+.drill-quote span a:after {
+	left: calc(100% + 20px);
+}
+
+.drill-quote span a:before {
+	right: calc(100% + 20px);
+}
+
+.testimonials {
+	border-top: 1px solid rgba(29,44,54,.2);
+	margin-top: 30px;
+	padding-top: 70px;
+}
+/* ========================== DRILL SERVICES PAGE PAGE STYLE END ===================================== */
+/* =================================================================================================== */
+/* =================================================================================================== */
+/* ========================== DRILL TEAM MEMBER PAGE STYLE START ===================================== */
+.team-member-bg {
+	background: url(../images/team-members-bg.jpg) no-repeat top center fixed;
+	background-size: cover;
+}
+/*
+.drill-txt-lg.title_bg_content.member:after{
+    content: "team members";
+    font-size: 120px;
+    color:#f3f5f6; 
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    top: 7%;
+    z-index: -1;
+    font-weight: 700;
+    left: 0;
+    width: 100%;
+    text-align: center;
+	background-position: bottom left 2.3px;
+    
+}
+*/
+.drill-txt-lg.dtl-center.title_bg_content.member{
+    padding: 5px 0px 50px 0px;
+}
+.drill-txt-lg.dtl-center.title_bg_content.member:before{
+    bottom: 50px !important;
+    display: none !important;
+}
+.member-ID:after {
+	background: #1D2C36;
+}
+
+.member-data-box .member-ID:hover:after {
+	background: #ffcd22;
+}
+
+.member-data-box .member-detail a {
+	color: rgba(74,89,103,1);
+}
+.member-data-box{
+    padding-bottom: 60px;
+}
+/* =========================== DRILL TEAM MEMBER PAGE STYLE END ====================================== */
+/* =================================================================================================== */
+/* =================================================================================================== */
+/* ============================ DRILL GALLERY PAGE STYLE START ======================================= */
+
+/* project-gallery slider css */
+#project-gallery .slick-prev {
+    background: #edac15;
+    font-size: 22px;
+    width: 45px;
+    height: 50px;
+    position: absolute;
+    left: -22px;
+    top: 50%;
+    z-index: 1;
+    transform: translateX(0%) translateY(-50%);
+}
+#project-gallery .slick-prev i{
+    position: relative;
+    left:-3px;
+}
+#project-gallery .slick-next i{
+    position: relative;
+    right:1px;
+}
+#project-gallery .slick-next{
+    background: #edac15;
+    font-size: 22px;
+    width: 45px;
+    height: 50px;
+    position: absolute;
+    right: -22px;
+    top: 50%;
+    z-index: 1;
+    transform: translateX(0%) translateY(-50%);
+}
+/* End project-gallery slider css */
+.gallery-bg {
+	background: url(../images/bg-img-3.jpg) no-repeat bottom center fixed;
+	background-size: cover;
+}
+
+.gallery-bg ~ .gallery-menu .slider-menu {
+	margin: 50px 0;
+}
+
+#project-gallery-full .mix {
+	display: none;
+}
+.mix-in {
+	height: 290px;
+	overflow: hidden;
+    position: relative;
+}
+.mix-in a:after{
+    position: absolute;
+	content: "\e000";
+	font-family: "Flaticon";
+	line-height: 60px;
+	font-size: 40px;
+	color: #fff;
+	cursor: pointer;
+	left: 50%;
+	opacity: 0;
+	visibility: hidden;
+    margin-left: -15px;
+    font-weight: 100;
+}
+.mix-in a:before{
+    background: rgba(255, 204, 30, .90);
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: all 300ms linear;
+}
+.mix-in a:hover:before{
+    opacity: 1;
+}
+.mix-in img {
+	width: 100%;
+	display: block;
+}
+
+.gallery-pages {
+	float: left;
+	position: relative;
+	left: 50%;
+	margin-top: 30px;
+    margin-bottom: 0;
+	-webkit-transform: translateX(-50%);
+	   -moz-transform: translateX(-50%);
+	    -ms-transform: translateX(-50%);
+	     -o-transform: translateX(-50%);
+	        transform: translateX(-50%);
+}
+
+.nav-links a.page-numbers, .nav-links span.current {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+.nav-links a, .nav-links span {
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #fff;
+	background: #1d2c36;
+	display: block;
+	border-radius: 5px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.gallery-pages a span:before {
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.gallery-pages a:hover,
+.gallery-pages span.current {
+	background: #ffcd22;
+}
+/* ============================= DRILL GALLERY PAGE STYLE END ======================================== */
+/* =================================================================================================== */
+/* =================================================================================================== */
+/* =========================== DRILL ABOUT US PAGE STYLE START ======================================= */
+.about-us-bg {
+	background: url(../images/bg-img-8.png) no-repeat top center fixed;
+	background-size: cover;
+}
+
+.about-us-bg ~ .drill-team {
+	margin-top: 0;
+}
+
+.about-us-bg ~ .company-name {
+	border: 0;
+	margin: 30px 0;
+}
+
+.we-are {
+	padding-left: 150px;
+	padding-right: 150px;
+	margin-bottom: 18px;
+}
+
+
+.about-img {
+	height: 320px;
+	margin-bottom: 25px;
+	overflow: hidden;
+	position: relative;
+}
+
+.we-are img {
+	width: 100%;
+	display: block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.who-we-are h3 {
+	text-transform: capitalize;
+}
+.drill-txt-lg.dtl-center.title_bg_content.who{
+    padding: 5px 0px 40px 0px;
+}
+ .we-are .drill-txt-lg.dtl-center.title_bg_content.who:before{
+    bottom: 40px !important;
+}
+.drill-txt-lg.dtl-center.title_bg_content.who:before{
+    bottom: 82px !important;
+}
+
+/* ============================ DRILL ABOUT US PAGE STYLE END ======================================== */
+/* =================================================================================================== */
+/* =================================================================================================== */
+/* ========================== DRILL CONTACT US PAGE STYLE START ====================================== */
+.contact-us-bg {
+	background: url(../images/contact-us-bg.jpg) no-repeat top center fixed;
+	background-size: cover;
+}
+
+.contact-content {
+	margin-top: 30px;
+	background: #F4F6F7;
+	padding: 30px 30px;
+	padding-right: 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+.contact-content:before {
+	position: absolute;
+	content: '';
+	width: 1px;
+	height: 1000px;
+	bottom: 0;
+	left: 39%;
+	background: rgba(29,44,54,.2);
+}
+
+.contact-content:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 1px;
+	bottom: 0;
+	left: 0;
+	background: rgba(29,44,54,.2);
+}
+
+.contact-1 {
+	padding: 30px 50px;
+}
+
+
+
+.contact-1 h3 {
+	text-align: left;
+	text-transform: capitalize;
+}
+
+.contact-2 {
+	padding-right: 30px;
+} 
+
+
+#map {
+	height: 300px;
+	width: 100%;
+	padding-right: 30px;
+}
+
+.contact-form {
+	background: #F4F6F7;
+	padding: 30px 50px;
+	padding-right: 50px;
+	margin-bottom: 100px;
+}
+
+.contact-form h2 {
+	margin-left: 15px;
+	margin-bottom: 30px;
+	text-transform: capitalize;
+}
+
+.drill-form input {
+	width: 100%;
+	height: 50px;
+	padding: 0 20px;
+	border-radius: 0;
+	background: #fff;
+	border: 1px solid transparent !important;
+}
+
+.drill-form textarea {
+	resize: none;
+	border-radius: 0;
+	border: 1px solid transparent !important;
+        line-height: 20px;
+        padding-left: 15px;
+}
+
+.drill-form input::-webkit-input-placeholder,
+.drill-form textarea::-webkit-input-placeholder {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: #333;
+}
+.drill-form input::-moz-placeholder, 
+.drill-form textarea::-moz-placeholder {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: #333;
+}
+.drill-form input:-ms-input-placeholder, 
+.drill-form textarea:-ms-input-placeholder {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: #333;
+}
+.drill-form input::placeholder,
+.drill-form textarea::placeholder {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	color: #333;
+}
+
+.drill-form input:hover,
+.drill-form textarea:hover,
+.drill-form input:focus,
+.drill-form textarea:focus {
+	border: 1px;
+    border-style: solid;
+    border-color: #ffcd22;
+}
+
+.drill-form {
+	margin-bottom: 20px;
+}
+
+.contact-form button[type="submit"] {
+	margin-left: 15px;
+	font-weight: 400;
+	cursor: pointer;
+	text-transform: uppercase;
+}
+.btn_hover{
+    margin-left: 15px;
+	cursor: pointer;
+	text-transform: uppercase;
+    background-color: transparent;
+    border: 1px;
+    border-style: solid;
+    border-color: #ffcd22;
+    font-family: "Raleway",sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 33px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 144px;
+    height: 45px;
+    z-index: 1;
+    transition: all 300ms linear;
+    margin-right: 20px;
+}
+.btn_hover input{
+    background: transparent !important;
+    line-height: 33px !important;
+    z-index: 1;
+    color: #ffcd22;
+    transition: all 300ms linear;
+    font-family: "Raleway",sans-serif;
+}
+input.form-control.form_btn_css {
+    font-size: 14px;
+}
+.btn_hover:after{
+    background: #1d2c36 none repeat scroll 0 0;
+    content: "";
+    height: 46px;
+    position: absolute;
+    top: 0;
+    width: 140%;
+    z-index: 0;
+    left: -200%;
+    z-index: -1;
+    transform: skew(-45deg);
+    transition: all 300ms linear;
+    border: 1px;
+    border-style: solid;
+    border-color: #1d2c36;
+}
+.btn_hover:hover.btn_hover:after{
+    left: -15%;
+}
+.btn_hover:hover{
+    border: 1px;
+    border-style: solid;
+    border-color: #1d2c36;
+}
+.btn_hover:hover input{
+    color: #fff;
+}
+#success{
+    display: none;
+}
+#error{
+    display: none;
+}
+
+/* =========================== DRILL CONTACT US PAGE STYLE END ======================================= */
+/* =================================================================================================== */
+/* =================================================================================================== */
+/* =================================================================================================== */
+
+

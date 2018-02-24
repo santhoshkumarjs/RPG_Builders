@@ -1,0 +1,10 @@
+update project set plot_img='balaji _plot.jpg' where project_id='14';
+update project set plot_img='bliss_plot.jpg' where project_id='1';
+update project set plot_img='delight_plot.jpg' where project_id='2';
+update project set plot_img='goodluck_plot.jpg' where project_id='5';
+update project set plot_img='kailash_plot.jpg' where project_id='6';
+update project set plot_img='kalki_plot.jpg' where project_id='9';
+update project set plot_img='sathasivam_plot.jpg' where project_id='15';
+update project set plot_img='srinagar_plot.jpg' where project_id='7';
+update project set plot_img='srinivasa_plot.jpg' where project_id='13';
+update project set plot_img='treasure_plot.jpg' where project_id='8';
