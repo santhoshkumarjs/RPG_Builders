@@ -1,0 +1,6 @@
+Singleton Pattern
+-----------------
+ref : https://code.tutsplus.com/tutorials/design-patterns-the-singleton-pattern--cms-23073
+1. Singleton pattern allows us to create one and only one object of a class.
+2. The singleton pattern is a design pattern that restricts the instantiation of a class to one object. This is useful when exactly one object is needed to coordinate actions across the system
+3. 
